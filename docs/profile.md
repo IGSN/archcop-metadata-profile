@@ -1,0 +1,24 @@
+#  Archaeological Sample Metadata Profile Properties
+
+- 1. Project
+- 2. investigationType
+- 3. investigationDates
+- 4. collectorExcavator
+- 5. Publisher
+- 6. Contributor
+- 7. sampleTitle
+- 8. Description
+- 9. Subject
+- 10. otherIdentifier
+- 11. collectionDate
+- 12. collectionMethod
+- 13. stratigraphicContext
+- 14. sampleDepth
+- 15. sampleWeight
+- 16. sampleMaterialType
+- 17. Colour
+- 18. absoluteDating
+- 19. relativeDating
+- 20. generalKeywords
+- 21. currentStatus
+- 22. Relations

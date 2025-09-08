@@ -1,0 +1,45 @@
+site_name: Archaeological Sample Metadata Profile
+
+# Use Material for MkDocs theme
+theme:
+  name: material
+  # Color palette
+  palette:
+    primary: indigo
+    accent: pink
+  # Optional icons for pages
+  icon:
+    home: material/home
+    profile: material/account
+
+# Navigation structure
+nav:
+  - Home: index.md
+  - Profile Structure:
+    - Main: profile.md
+    - 1. Project: profile/project.md
+    - 2. investigationType: profile/investigation-type
+    - 3. investigationDates: profile/investigation-dates
+    - 4. collectorExcavator: profile/collector-excavator
+    - 5. Publisher: profile/publisher
+    - 6. Contributor: profile/contributor
+    - 7. sampleTitle: profile/sample-title
+    - 8. Description: profile/description
+    - 9. Subject: profile/subject
+    - 10. otherIdentifier: profile/other-identifier
+    - 11. collectionDate: profile/collection-date
+    - 12. collectionMethod: profile/collection-method
+    - 13. stratigraphicContext: profile/stratigraphic-context
+    - 14. sampleDepth: profile/sample-depth
+    - 15. sampleWeight: profile/sample-weight
+    - 16. sampleMaterialType: profile/sample-material-type
+    - 17. Colour: profile/colour
+    - 18. absoluteDating: profile/absolute-dating
+    - 19. relativeDating: profile/relative-dating
+    - 20. generalKeywords: profile/general-keywords
+    - 21. currentStatus: profile/current-status
+    - 22. Relations: profile/relations 
+
+# Optional: enable search (Material includes this by default)
+plugins:
+  - search
