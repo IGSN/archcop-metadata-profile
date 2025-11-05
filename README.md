@@ -11,7 +11,7 @@ This repository contains the source files for the **Archaeological Sample Metada
 
 ## 🚀 Building the site locally
 
-Access to build or serve the documentation locally may be limited.
+Access to build or serve the documentation locally may be limited.  
 If you have permission and the required environment to build the documentation:
 
 1. Install MkDocs and dependencies:
@@ -24,8 +24,8 @@ If you have permission and the required environment to build the documentation:
 
 ## 🌐 Public site
 
-This repository contains source materials only.
-The published version of this documentation is available at:
+This repository contains source materials only.  
+The published version of this documentation is available at:  
 👉 [URL to be added after publishing]
 
 *This repository is maintained by the IGSN–DataCite Archaeology and Cultural Heritage Community of Practice.*
