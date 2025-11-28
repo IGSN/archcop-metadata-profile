@@ -1,0 +1,67 @@
+site_name: Archaeological Sample Metadata Profile
+
+# Use Material for MkDocs theme
+theme:
+  name: material
+  custom_dir: overrides
+  # Color palette
+  # palette:
+    # primary: #243B54
+    # accent: blue
+  # Optional icons for pages
+  icon:
+    home: material/home
+    profile: material/account
+  features:
+    - navigation.indexes
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - pymdownx.magiclink
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.superfences
+  - toc:
+      permalink: true
+      baselevel: 2
+
+extra_javascript:
+  - javascripts/extra.js
+
+# Navigation structure
+nav:
+  - Archaeological Sample Metadata Profile: index.md
+  - Profile Properties (Ver. 1.0):
+    - Overview of Version 1.0: profile.md
+    - 1. Project: profile/project.md
+    - 2. investigationType: profile/investigation-type.md
+    - 3. investigationDates: profile/investigation-dates.md
+    - 4. collectorExcavator: profile/collector-excavator.md
+    - 5. Publisher: profile/publisher.md
+    - 6. Contributor: profile/contributor.md
+    - 7. sampleTitle: profile/sample-title.md
+    - 8. Description: profile/description.md
+    - 9. Subject: profile/subject.md
+    - 10. otherIdentifier: profile/other-identifier.md
+    - 11. collectionDate: profile/collection-date.md
+    - 12. collectionMethod: profile/collection-method.md
+    - 13. stratigraphicContext: profile/stratigraphic-context.md
+    - 14. sampleDepth: profile/sample-depth.md
+    - 15. sampleWeight: profile/sample-weight.md
+    - 16. sampleMaterialType: profile/sample-material-type.md
+    - 17. Colour: profile/colour.md
+    - 18. absoluteDating: profile/absolute-dating.md
+    - 19. relativeDating: profile/relative-dating.md
+    - 20. generalKeywords: profile/general-keywords.md
+    - 21. currentStatus: profile/current-status.md
+    - 22. Relations: profile/relations.md
+
+# Optional: enable search (Material includes this by default)
+plugins:
+  - search
