@@ -44,6 +44,6 @@ If you have permission and the required environment to build the documentation:
 
 This repository contains source materials only.  
 The published version of this documentation is available at:  
-👉 [https://igsn.github.io/archcop-metadata-profile/]
+👉 https://igsn.github.io/archcop-metadata-profile/
 
 *This repository is maintained by the IGSN–DataCite Archaeology and Cultural Heritage Community of Practice.*
