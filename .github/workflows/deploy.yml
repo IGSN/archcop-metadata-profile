@@ -2,9 +2,6 @@ name: Deploy MkDocs site
 
 on:
   workflow_dispatch:  # allows manual run
-  push:
-    branches:
-      - master
 
 jobs:
   deploy:
