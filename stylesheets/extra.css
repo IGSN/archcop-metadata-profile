@@ -1,0 +1,33 @@
+:root {
+  --md-primary-fg-color: #243B54;
+  --md-accent-fg-color: #00B1E2;
+}
+
+/* Stop MkDocs Material from forcing uppercase on h5 & h6 */
+h5, h6 {
+  text-transform: none !important;
+}
+
+/* External link icon */
+.md-content a[href^="http"]::after {
+  content: "";
+  display: inline-block;
+  width: 0.75em;
+  height: 0.75em;
+  margin-left: 0.25em;
+  background: currentColor; 
+  -webkit-mask: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='black' d='M14,3 L20.5,3 C21.328,3 22,3.672 22,4.5 L22,11 h-2 V6.914 l-9.793,9.793 -1.414-1.414 L18.586,5.5 H14 V3 Z M5,5 h7 v2 H6.5 C5.672,7 5,7.672 5,8.5 v9 C5,18.328 5.672,19 6.5,19 h9 c0.828,0 1.5-0.672 1.5-1.5 V12 h2 v5.5 c0,1.657-1.343,3-3,3 h-9 c-1.657,0-3-1.343-3-3 v-9 c0-1.657 1.343-3 3-3 Z'/></svg>") no-repeat center;
+  -webkit-mask-size: contain;
+  mask: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='black' d='M14,3 L20.5,3 C21.328,3 22,3.672 22,4.5 L22,11 h-2 V6.914 l-9.793,9.793 -1.414-1.414 L18.586,5.5 H14 V3 Z M5,5 h7 v2 H6.5 C5.672,7 5,7.672 5,8.5 v9 C5,18.328 5.672,19 6.5,19 h9 c0.828,0 1.5-0.672 1.5-1.5 V12 h2 v5.5 c0,1.657-1.343,3-3,3 h-9 c-1.657,0-3-1.343-3-3 v-9 c0-1.657 1.343-3 3-3 Z'/></svg>") no-repeat center;
+  mask-size: contain;
+}
+
+.page-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2em;
+}
+
+.md-nav__title {
+  display: none;
+}
