@@ -25,18 +25,18 @@ If you have permission and the required environment to build the documentation:
 🔄 Manual site updates
 
 1. The live site is published manually from this repository. To update it:
-   Build the site locally using mkdocs build.
-   This generates the site/ folder containing the HTML and assets.
-2. Switch to the gh-pages branch:
-   git checkout gh-pages
-3. Copy the contents of site/ into the root of gh-pages (replacing existing files).
-4. Commit and push the changes to the gh-pages branch:
-   git add --all
-   git commit -m "Update site"
-   git push origin gh-pages
+   Build the site locally using `mkdocs build`.
+   This generates the `site/ folder` containing the HTML and assets.
+2. Switch to the `gh-pages` branch:
+   ```git checkout gh-pages
+3. Copy the contents of `site/` into the root of `gh-pages` (replacing existing files).
+4. Commit and push the changes to the `gh-pages` branch:
+   ```git add --all
+   ```git commit -m "Update site"
+   ```git push origin gh-pages
 5. The changes will be live immediately at the published URL.
 
-⚠️ Note: The gh-pages branch is public so the site can be viewed, but other branches may remain private.
+⚠️ Note: The `gh-pages` branch is public so the site can be viewed, but other branches may remain private.
 
 ## 🌐 Public site
 
